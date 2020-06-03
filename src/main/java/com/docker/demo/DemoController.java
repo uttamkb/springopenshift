@@ -10,4 +10,9 @@ public class DemoController {
         return  "docker image created and running";
 
     }
+    @GetMapping(path="/hello")
+    public String sayHello(){
+        return  "Hello - image created and running";
+
+    }
 }
